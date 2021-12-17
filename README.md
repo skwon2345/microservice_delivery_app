@@ -1,5 +1,5 @@
 # microservice_delivery_app
-This project is single host microservice architecture project that is implemented by Djanog and Flask. Two different services are isolated by Docker container and using two database for each services.
+This project is a single-host microservice architecture project that is implemented by Djanog and Flask. Two different services are isolated by Docker container and using two database for each services.
 Two services are synchronizing their database by using RabbitMQ.
 
 ## Intro

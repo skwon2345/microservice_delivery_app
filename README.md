@@ -2,6 +2,11 @@
 This project is implemented by Djanog and Flask. Two different services are isolated by Docker container and using two database for each services.
 Two services are synchronizing their database by using RabbitMQ.
 
+## Intro
+![image](./image/screenshot.png)
+
+Two independent services called Order, and Boss will be managed by Docker container. Two different databases that are used by each of Order and Boss, will be synchronized by RabbitMQ.
+
 ## Order
 This service is implemeneted with Django.
 It is for customer to save their order and track whether the order is delivered or not.
